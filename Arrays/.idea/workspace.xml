@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad3933c4-a7b6-4b8c-b614-eeee4d9f48ad" name="Changes" comment="Merge two sorted arrays function">
-      <change afterPath="$PROJECT_DIR$/TwoSum/TwoSum.java" afterDir="false" />
+    <list default="true" id="ad3933c4-a7b6-4b8c-b614-eeee4d9f48ad" name="Changes" comment="Two Sum function">
+      <change afterPath="$PROJECT_DIR$/MaxSubArray/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +44,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="DynamicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicArrays.DynamicArrays" />
+  <component name="RunManager" selected="Application.MaxSubArray">
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxSubArray.MaxSubArray" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicArrays.*" />
+          <option name="PATTERN" value="MaxSubArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MergeTwoSortedArrays" />
         <item itemvalue="Application.StringReverse" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.DynamicArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634403348432</updated>
       <workItem from="1634403351041" duration="1876000" />
-      <workItem from="1634566575781" duration="2257000" />
+      <workItem from="1634566575781" duration="3635000" />
     </task>
     <task id="LOCAL-00001" summary="Starting with dynamic arrays">
       <created>1634403480733</created>
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634567808337</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Two Sum function">
+      <created>1634569115024</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634569115024</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +189,7 @@
     <MESSAGE value="Adding dynamic arrays implementation" />
     <MESSAGE value="String reverse functions" />
     <MESSAGE value="Merge two sorted arrays function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge two sorted arrays function" />
+    <MESSAGE value="Two Sum function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Sum function" />
   </component>
 </project>
