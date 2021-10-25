@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad3933c4-a7b6-4b8c-b614-eeee4d9f48ad" name="Changes" comment="Max Subarray Sum function">
-      <change afterPath="$PROJECT_DIR$/RotateArray/RotateArray.java" afterDir="false" />
+    <list default="true" id="ad3933c4-a7b6-4b8c-b614-eeee4d9f48ad" name="Changes" comment="Rotate array function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +129,8 @@
       <updated>1634403348432</updated>
       <workItem from="1634403351041" duration="1876000" />
       <workItem from="1634566575781" duration="4034000" />
-      <workItem from="1634655212458" duration="1066000" />
+      <workItem from="1634655212458" duration="1687000" />
+      <workItem from="1635172037673" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Starting with dynamic arrays">
       <created>1634403480733</created>
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634574280717</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Rotate array function">
+      <created>1634659915435</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634659915435</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +206,7 @@
     <MESSAGE value="Merge two sorted arrays function" />
     <MESSAGE value="Two Sum function" />
     <MESSAGE value="Max Subarray Sum function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Max Subarray Sum function" />
+    <MESSAGE value="Rotate array function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rotate array function" />
   </component>
 </project>
