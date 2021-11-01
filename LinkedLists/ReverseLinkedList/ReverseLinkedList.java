@@ -25,12 +25,11 @@ public class ReverseLinkedList {
     public ListNode reverseListIterative(ListNode head) {
         if(head == null) return head;
         ListNode newHead = new ListNode(head.val);
-
-        head = head.next;
         while(head != null) {
-            ListNode temp = new ListNode(head.val, newHead);
-            newHead = temp;
-            head = head.next;
+            ListNode temp = head.next;
+            head.next = newHead;
+            newHead = head;
+            head = temp;
         }
         return newHead;
     }

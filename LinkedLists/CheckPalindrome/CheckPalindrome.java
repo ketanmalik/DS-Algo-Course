@@ -31,14 +31,16 @@ public class CheckPalindrome {
     // Helper function to reverse the linked list
     public ListNode reverse(ListNode head) {
         if(head == null) return null;
-        ListNode newHead = new ListNode(head.val);
-        head = head.next;
+        ListNode prev = null;
+
         while(head != null) {
-            ListNode newNode = new ListNode(head.val, newHead);
-            newHead = newNode;
-            head = head.next;
+            ListNode temp = head.next;
+            head.next = prev;
+            prev = head;
+            head = temp;
         }
-        return newHead;
+
+        return prev;
     }
 
     // O(n) time & O(n) space
